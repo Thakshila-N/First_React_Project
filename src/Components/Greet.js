@@ -12,4 +12,9 @@
 
 // ===== Name Export ======== //
 
-export const Greet = () => <h1>Hello Thakshila</h1>
+export const Greet = (props) => {
+    return(
+        <h1>Hello {props.name}</h1>
+    )
+
+}
