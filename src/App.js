@@ -6,6 +6,7 @@ import EventBinding from './Components/EventBinding';
 import FuntionClick from './Components/FuntionClick';
 import {Greet} from './Components/Greet'
 import Message from './Components/Message';
+import ParentComponent from './Components/ParentComponent';
 import Wellcome from './Components/Welcome';
 
 function App() {
@@ -17,8 +18,8 @@ function App() {
       <Counter />
       <FuntionClick /> */}
       {/* <ClassClick /> */}
-      <EventBinding />
-      
+      {/* <EventBinding /> */}
+      <ParentComponent />
       
     </div>
   );
