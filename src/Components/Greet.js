@@ -12,9 +12,18 @@
 
 // ===== Name Export ======== //
 
-export const Greet = (props) => {
+// export const Greet = (props) => {
+//     return(
+//         <h1>Hello {props.name}</h1>
+//     )
+
+// }
+
+// ==== Destructuring ==== //
+
+export const Greet = ({name}) => {
     return(
-        <h1>Hello {props.name}</h1>
+        <h1>Hello {name}</h1>
     )
 
 }
